@@ -34,7 +34,7 @@ jobs:
     - uses: actions/checkout@v1
 
     - name: Rubocop checks
-        uses: luizfonseca/github-actions-rubocop@1.5.5
+        uses: dockwa/github-actions-rubocop@master
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 ```
